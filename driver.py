@@ -9,6 +9,7 @@ class Driver:
         self.time_penalty = 0
         self.stints = []
 
+
     def change_tyre(self, new_tyre_color):
         self.tyre = Tyre(new_tyre_color)
 
