@@ -12,6 +12,7 @@ class Driver:
     def change_tyre(self, new_tyre_color):
         self.tyre = Tyre(new_tyre_color)
 
+
     def perform_pit_stop(self):
         # Časová penalizace za pit stop
         pit_stop_penalty = 10  # Předpokládaná časová penalizace za pit stop (například 10 sekund)
